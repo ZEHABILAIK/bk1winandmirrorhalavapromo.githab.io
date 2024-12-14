@@ -1,0 +1,132 @@
+body {
+  background-color: #ffffff;
+  border-radius: 95px;
+}
+
+p {
+  text-align: center;
+}
+
+
+
+
+
+span {
+       font-style: oblique;
+     background-color: rgb(9, 175, 67);
+     color: rgb(255, 255, 255);
+}
+ol {
+ list-style: square;   
+}
+p {
+  display: inline-block  
+   
+}
+
+.qwerty1 {
+      text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 25px;
+        border-radius: 95px;
+        text-decoration: none;
+}
+
+.qwerty3  {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  border-radius: 95px;
+  text-decoration: none;
+}
+
+
+
+
+.conteiner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    border-radius:95px;
+    text-decoration: none;
+}
+
+.conteiner>img {
+   width: 10px; 
+}
+
+.list-conteiner
+
+.nav-conteiner {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 33, 41);
+  color: aliceblue;
+}
+
+
+
+
+
+
+@media ( max-width: 900px  ) {
+  .nav-conteiner {
+    flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+div {
+  text-align: center;
+  
+  
+}
+p {
+  font-size: 20px;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nav-conteiner>nav>ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3, 27, 49);
+
+  text-align: center;
+  font-size: 19px;
+}
+.nav-conteiner {
+  display: flex;
+  background-color: rgb(22, 22, 34);
+}
+
+.nav-list a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  color: aliceblue;
+  border-radius: 95px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.qwerty {
+  margin-left:400px ;
+  margin-right:400px ;
+}
